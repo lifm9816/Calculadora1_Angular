@@ -1,0 +1,19 @@
+<label for="operador1">Operador 1</label>
+<input
+    id = "operador1" 
+    type="number" 
+    class = "form-control"
+    [(ngModel)] = "operador1"
+    placeholder = "Teclee un número"
+    name="operador1"
+>
+<label for="operador2">Operador 2</label>
+<input 
+    id = "operador2"    
+    type="number"
+    class = "form-control"
+    [(ngModel)] = "operador2"
+    placeholder = "Teclee otro número"
+    name="operador2"
+>
+<button class = "sumar-btn" (click) = "suma()">Sumar</button>
